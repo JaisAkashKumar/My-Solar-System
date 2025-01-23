@@ -19,26 +19,22 @@ const Navbar = ({ navbar, onNavigate }) => {
               {item.name} ▼
               <ul>
                 {item.subMenu.map((subItem, subIndex) => (
-                  <li key={subIndex}>
-                    <button
-                      onClick={() =>
-                        onNavigate(subItem.link, subItem.background)
-                      }
-                    >
-                      {subItem.name}
-                    </button>
+                  <li
+                    key={subIndex}
+                    onClick={() => onNavigate(subItem.link, subItem.background)}
+                  >
+                    <button>{subItem.name}</button>
                   </li>
                 ))}
               </ul>
             </li>
           ) : (
-            <li key={index} className="list-item">
-              <button
-                href="#"
-                onClick={() => onNavigate(item.link, item.background)}
-              >
-                {item.name}
-              </button>
+            <li
+              key={index}
+              className="list-item"
+              onClick={() => onNavigate(item.link, item.background)}
+            >
+              <button>{item.name}</button>
             </li>
           )
         )}
