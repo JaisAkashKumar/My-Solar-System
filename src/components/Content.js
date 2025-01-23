@@ -12,7 +12,7 @@ const Content = ({ pageData }) => {
   useEffect(() => {
     const interval = setInterval(nextSlide, 5000); // Auto-rotate every 3 seconds
     return () => clearInterval(interval); // Cleanup on component unmount
-  }, []);
+  });
 
   return (
     <div className="carousel-container">
