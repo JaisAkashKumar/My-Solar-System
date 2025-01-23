@@ -7,9 +7,7 @@ const Navbar = ({ navbar, onNavigate }) => {
         <img src={navbar.logo} alt="Logo" />
         <div className="logo-text">
           <p id="p1">
-            <a href="#" onClick={() => onNavigate("home")}>
-              {navbar.text[0]}
-            </a>
+            <button onClick={() => onNavigate("home")}>{navbar.text[0]}</button>
           </p>
           <p id="p2">{navbar.text[1]}</p>
         </div>
@@ -22,26 +20,25 @@ const Navbar = ({ navbar, onNavigate }) => {
               <ul>
                 {item.subMenu.map((subItem, subIndex) => (
                   <li key={subIndex}>
-                    <a
-                      href="#"
+                    <button
                       onClick={() =>
                         onNavigate(subItem.link, subItem.background)
                       }
                     >
                       {subItem.name}
-                    </a>
+                    </button>
                   </li>
                 ))}
               </ul>
             </li>
           ) : (
             <li key={index} className="list-item">
-              <a
+              <button
                 href="#"
                 onClick={() => onNavigate(item.link, item.background)}
               >
                 {item.name}
-              </a>
+              </button>
             </li>
           )
         )}

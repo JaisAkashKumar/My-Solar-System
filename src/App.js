@@ -19,12 +19,12 @@ const App = () => {
   // };
 
   let pageData = data.content[currentPage];
-  console.log("pageData Outer", pageData);
+  // console.log("pageData Outer", pageData);
   // const pageData = data.content[currentPage] || defaultPageData;
   const onNavigate = (page, background) => {
     pageData = data.content[page];
-    console.log("pageData", pageData);
-    console.log("page", page);
+    // console.log("pageData", pageData);
+    // console.log("page", page);
     setCurrentPage(page);
     setBackgroundImage(pageData.background);
   };
