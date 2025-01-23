@@ -1,0 +1,241 @@
+{
+  "navbar": {
+    "logo": "/images/nasa-logo.png",
+    "text": ["Our Solar System", "Explore the World"],
+    "menu": [
+      { "name": "Our Sun", "link": "sun" },
+      { "name": "Our Earth", "link": "earth" },
+      { "name": "Our Moon", "link": "moon" },
+      {
+        "name": "More Planets",
+        "subMenu": [
+          { "name": "Mercury", "link": "mercury" },
+          { "name": "Venus", "link": "venus" },
+          { "name": "Mars", "link": "mars" },
+          { "name": "Jupiter", "link": "jupiter" },
+          { "name": "Saturn", "link": "saturn" },
+          { "name": "Uranus", "link": "uranus" },
+          { "name": "Neptune", "link": "neptune" }
+        ]
+      }
+    ]
+  },
+  "content": {
+    "home": {
+      "slides": [
+        {
+          "title": "Learn About Our Solar System",
+          "description": "Explore the wonders of our Solar System on this website. From the scorching heat of Mercury to the icy expanse of Neptune, it is a celestial tapestry of wonder."
+        },
+        {
+          "title": "Explore the Stars",
+          "description": "Our Solar System is just one part of the vast universe. Learn about the stars that light up the night sky and the galaxies far beyond."
+        },
+        {
+          "title": "The Wonders of Space",
+          "description": "Space is a place of unimaginable beauty and mystery. Discover more about the cosmos through interactive content and immersive visuals."
+        }
+      ],
+      "image": "/images/solar-system.jpg",
+      "background": "/images/solar-system-3.jpg"
+    },
+    "sun": {
+      "slides": [
+        {
+          "title": "The Sun",
+          "description": "The Sun is the star at the center of our Solar System. It is the most important source of energy for life on Earth."
+        },
+        {
+          "title": "Sun's Importance",
+          "description": "Without the Sun, life as we know it wouldn't exist. Its energy fuels everything from weather systems to plant growth."
+        },
+        {
+          "title": "The Sun's Structure",
+          "description": "The Sun is made of layers, including the core, radiative zone, convective zone, and the corona. Learn how these layers work together."
+        }
+      ],
+      "image": "/images/sun.jpg",
+      "background": "/images/sun.jpg"
+    },
+    "moon": {
+      "slides": [
+        {
+          "title": "The Moon",
+          "description": "Earth's Moon is the only natural satellite and a constant companion to our planet."
+        },
+        {
+          "title": "Moon's Phases",
+          "description": "The Moon goes through different phases every month, from new moon to full moon. These phases affect tides on Earth."
+        },
+        {
+          "title": "Exploring the Moon",
+          "description": "Humans have explored the Moon through missions like Apollo 11. Discover the history of lunar exploration and the possibilities for the future."
+        }
+      ],
+      "image": "/images/moon.jpg",
+      "background": "/images/moon.jpg"
+    },
+    "earth": {
+      "slides": [
+        {
+          "title": "Earth - Our Home",
+          "description": "Earth is the blue-green jewel of the cosmos, teeming with life and the only known planet to support ecosystems."
+        },
+        {
+          "title": "The Earth's Atmosphere",
+          "description": "The Earth's atmosphere protects us from harmful radiation and helps regulate the planet's temperature."
+        },
+        {
+          "title": "Geography of Earth",
+          "description": "Explore Earth's diverse landscapes, from mountains and forests to deserts and oceans."
+        }
+      ],
+      "image": "/images/earth.jpg",
+      "background": "/images/earth.jpg"
+    },
+    "mars": {
+      "slides": [
+        {
+          "title": "Mars - The Red Planet",
+          "description": "Mars, the Red Planet, has a thin atmosphere and surface features reminiscent of Earth."
+        },
+        {
+          "title": "Exploring Mars",
+          "description": "NASA's rovers, such as Perseverance and Curiosity, continue to explore Mars' surface, searching for signs of past life."
+        },
+        {
+          "title": "Mars' Moons",
+          "description": "Mars has two small moons, Phobos and Deimos. Learn about their unusual orbits and what makes them so different from our Moon."
+        }
+      ],
+      "image": "/images/mars.jpg",
+      "background": "/images/mars.jpg"
+    },
+    "mercury": {
+      "slides": [
+        {
+          "title": "Mercury - The Smallest Planet",
+          "description": "Mercury is the closest planet to the Sun and the smallest in the Solar System."
+        },
+        {
+          "title": "Mercury's Temperature",
+          "description": "Due to its proximity to the Sun, Mercury has extreme temperature fluctuations, from boiling hot to freezing cold."
+        },
+        {
+          "title": "Mercury's Surface",
+          "description": "Mercury's surface is rocky and covered with craters. It has no atmosphere to protect it from space debris."
+        }
+      ],
+      "image": "/images/mercury.jpg",
+      "background": "/images/mercury.jpg"
+    },
+    "venus": {
+      "slides": [
+        {
+          "title": "Venus - The Morning Star",
+          "description": "Venus is the second planet from the Sun, known for its thick and toxic atmosphere."
+        },
+        {
+          "title": "Venus' Surface",
+          "description": "Venus' surface is a hot, barren landscape with temperatures high enough to melt lead. It is covered by clouds of sulfuric acid."
+        },
+        {
+          "title": "The Venusian Atmosphere",
+          "description": "The atmosphere of Venus is composed mainly of carbon dioxide, causing a runaway greenhouse effect that keeps it scorching hot."
+        }
+      ],
+      "image": "/images/venus.jpg",
+      "background": "/images/venus.jpg"
+    },
+    "jupiter": {
+      "slides": [
+        {
+          "title": "Jupiter - The Gas Giant",
+          "description": "Jupiter is the largest planet in the Solar System, known for its Great Red Spot."
+        },
+        {
+          "title": "Jupiter's Moons",
+          "description": "Jupiter has over 79 moons, including the four largest: Io, Europa, Ganymede, and Callisto."
+        },
+        {
+          "title": "The Great Red Spot",
+          "description": "The Great Red Spot is a massive storm on Jupiter, known for its size and duration."
+        }
+      ],
+      "image": "/images/jupiter.jpg",
+      "background": "/images/jupiter.jpg"
+    },
+    "saturn": {
+      "slides": [
+        {
+          "title": "Saturn - The Ringed Planet",
+          "description": "Saturn is the sixth planet from the Sun, famous for its stunning ring system."
+        },
+        {
+          "title": "Saturn's Rings",
+          "description": "Saturn's rings are made of ice, rock, and dust particles, and are the most complex and beautiful in the Solar System."
+        },
+        {
+          "title": "Saturn's Moons",
+          "description": "Saturn has over 80 moons, with Titan being the largest and having a thick atmosphere."
+        }
+      ],
+      "image": "/images/saturn.jpg",
+      "background": "/images/saturn.jpg"
+    },
+    "uranus": {
+      "slides": [
+        {
+          "title": "Uranus - The Tilted Giant",
+          "description": "Uranus is a gas giant with a pale blue color, and it rotates on its side."
+        },
+        {
+          "title": "Uranus' Rings",
+          "description": "Uranus has faint rings made of ice and rock particles. They are difficult to see from Earth."
+        },
+        {
+          "title": "Uranus' Moons",
+          "description": "Uranus has 27 known moons, most of which are named after characters from Shakespeare's plays."
+        }
+      ],
+      "image": "/images/uranus.jpg",
+      "background": "/images/uranus.jpg"
+    },
+    "neptune": {
+      "slides": [
+        {
+          "title": "Neptune - The Windy Planet",
+          "description": "Neptune is the farthest planet from the Sun, known for its intense blue color and strong winds."
+        },
+        {
+          "title": "Neptune's Atmosphere",
+          "description": "Neptune's atmosphere is made of hydrogen, helium, and methane, and it has the strongest winds of any planet."
+        },
+        {
+          "title": "Neptune's Moons",
+          "description": "Neptune has 14 known moons, with Triton being the largest and most geologically active."
+        }
+      ],
+      "image": "/images/neptune.jpg",
+      "background": "/images/neptune.jpg"
+    }
+  },
+  "footer": [
+    {
+      "platform": "Instagram",
+      "url": "https://www.instagram.com/NASASolarSystem/",
+      "icon": "/images/insta logo.png",
+      "right":"© Akash, All Rights Reserved"
+    },
+    {
+      "platform": "YouTube",
+      "url": "https://www.youtube.com/@NASA",
+      "icon": "/images/youtube-logo.webp"
+    },
+    {
+      "platform": "LinkedIn",
+      "url": "https://www.linkedin.com/in/akash-kumar-997b19319/",
+      "icon": "/images/linkedIn.png"
+    }
+  ]
+}
